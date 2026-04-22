@@ -1,174 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Healthcare App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html><!DOCTYPE html="services.html">Services</a>
+    <a href="patient-care.html">Patient Care</a>
+    <a href="registration.html">Registration</a>
+    <a href="booking.html">Booking</a>
+    <a href="equipment.html">Medical Equipments</a>
+    <a href="cart.html">Cart</a>
+</nav>
 
+<h1 style="padding:20px;">Welcome to Healthcare Application</h1>
+<p style="padding:20px;">Choose a menu option to continue.</p>
+
+</body>
+</html>
+``
+<html>
+<head>
+    <title>Healthcare App</title>
     <style>
         body {
+            font-family: Arial;
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f9f9;
+            padding: 0;
         }
-
-        header {
-            background-color: #0a9396;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-
         nav {
-            background: #94d2bd;
-            padding: 10px;
-            text-align: center;
+            background-color: #2c7be5;
+            padding: 15px;
         }
-
         nav a {
-            color: #003049;
+            color: white;
             margin: 10px;
             text-decoration: none;
             font-weight: bold;
         }
-
-        .container {
-            padding: 20px;
-        }
-
-        .card-container {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            background: white;
-            border-radius: 8px;
-            padding: 15px;
-            width: 280px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .card h3 {
-            margin-top: 0;
-            color: #005f73;
-        }
-
-        form input, form select, form button {
-            width: 100%;
-            padding: 8px;
-            margin: 6px 0;
-        }
-
-        button {
-            background-color: #0a9396;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #007f86;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #005f73;
-            color: white;
-            margin-top: 30px;
+        nav a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
-
 <body>
-<script type="text/javascript" charset="utf-8">
-  (function (g, e, n, es, ys) {
-    g['_genesysJs'] = e;
-    g[e] = g[e] || function () {
-      (g[e].q = g[e].q || []).push(arguments)
-    };
-    g[e].t = 1 * new Date();
-    g[e].c = es;
-    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
-  })(window, 'Genesys', 'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
-    environment: 'prod-usw2',
-    deploymentId: 'ff171104-a6c4-472f-93ca-cc630ecd5e9b'
-  });
-</script>  
-<header>
-    <h1>Healthcare Management App</h1>
-    <p>Your Digital Health Partner</p>
-</header>
 
 <nav>
-    #dashboardDashboard</a>
-    #doctorsDoctors</a>
-    #appointmentsAppointments</a>
-</nav>
-
-<div class="container" id="dashboard">
-    <h2>Patient Dashboard</h2>
-    <div class="card-container">
-        <div class="card">
-            <h3>Patient Info</h3>
-            <p><strong>Name:</strong> John Doe</p>
-            <p><strong>Age:</strong> 32</p>
-            <p><strong>Blood Group:</strong> O+</p>
-        </div>
-
-        <div class="card">
-            <h3>Health Status</h3>
-            <p>✅ Heart Rate: Normal</p>
-            <p>✅ Blood Pressure: Stable</p>
-        </div>
-    </div>
-</div>
-
-<div class="container" id="doctors">
-    <h2>Our Doctors</h2>
-    <div class="card-container">
-        <div class="card">
-            <h3>Dr. Smith</h3>
-            <p>Cardiologist</p>
-            <p>📞 9876543210</p>
-        </div>
-
-        <div class="card">
-            <h3>Dr. Anita</h3>
-            <p>General Physician</p>
-            <p>📞 9123456780</p>
-        </div>
-    </div>
-</div>
-
-<div class="container" id="appointments">
-    <h2>Book Appointment</h2>
-    <form onsubmit="bookAppointment(); return false;">
-        <input type="text" id="name" placeholder="Patient Name" required>
-        <select id="doctor">
-            <option>Dr. Smith</option>
-            <option>Dr. Anita</option>
-        </select>
-        <input type="date" id="date" required>
-        <button type="submit">Book Now</button>
-    </form>
-</div>
-
-<footer>
-    <p>© 2026 Healthcare App | All Rights Reserved</p>
-</footer>
-
-<script>
-    function bookAppointment() {
-        const name = document.getElementById("name").value;
-        const doctor = document.getElementById("doctor").value;
-        const date = document.getElementById("date").value;
-
-        alert(`Appointment booked!\nPatient: ${name}\nDoctor: ${doctor}\nDate: ${date}`);
-    }
-</script>
-
-</body>
-</html>
+    <a href="home.html">Home</a>
